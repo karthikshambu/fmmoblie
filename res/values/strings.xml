@@ -22,7 +22,7 @@
     
     <!-- DUmmy Data TODO  -->
     
-    <string-array name="publisher_name">
+<string-array name="publisher_name">
     <item>Amith</item>
     <item>Karthik</item>
     <item>Raudra</item>
@@ -138,7 +138,10 @@
     <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
 </string-array>
 
-
+<string-array name="pl_type">
+    <item>Buyer List</item>
+    <item>Seller List</item>
+</string-array>
     
        
 </resources>

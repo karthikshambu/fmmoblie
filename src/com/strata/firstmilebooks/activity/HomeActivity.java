@@ -60,12 +60,15 @@ public class HomeActivity extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 
 		int id = item.getItemId();
-//		if (id == R.id.action_profile) {
-//			Intent in = new Intent(getApplicationContext(), ProfileViewActivity.class);
-//			startActivity(in);
-//			return true;
-//		}else 
-			if (id == R.id.sign_out) {
+		if (id == R.id.create_product_lists) {
+			Intent in = new Intent(getApplicationContext(), CreateListActivity.class);
+			startActivity(in);
+			return true;
+		}else if (id == R.id.action_products) {
+			Intent in = new Intent(getApplicationContext(), ProductCatalogActivity.class);
+			startActivity(in);
+			return true;
+		} else if (id == R.id.sign_out) {
 			SharedPreferences preferences = getSharedPreferences("PREF",Context.MODE_PRIVATE);
 			SharedPreferences.Editor editor = preferences.edit();
 			editor.putString("NAME", "");

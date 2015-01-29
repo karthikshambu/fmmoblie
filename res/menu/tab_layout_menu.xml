@@ -21,6 +21,11 @@
 		          android:textSize="12sp"
 		          android:title="Products"
 		          android:showAsAction="ifRoom" />
+		    <item android:id="@+id/create_product_lists"
+		          android:textSize="12sp"
+		          android:icon="@drawable/ic_address"
+		          android:title="Create List"
+		          android:showAsAction="ifRoom" />
 		    <item android:id="@+id/action_lists"
 		          android:textSize="12sp"
 		          android:title="Lists"

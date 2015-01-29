@@ -87,7 +87,8 @@
 	    android:layout_below="@+id/line_separator"
 	    android:textColor="#a222"
         android:textSize="12dip"
-	    android:text="Shared adsflkjladfs asdlkadfsjkladf adslkjadfs fadadfslkjladfs ladsjkladfsj fadsfdasklfadjskldf ladfsl fdjadfsldfj ;ladf ;ladf ldfas dfsjkldafjk;dfj;ladf " />
+        android:ellipsize="end"
+        android:maxLines="5" />
 	
 <!-- 	<TextView
 	    android:id="@+id/feed_action"

@@ -36,6 +36,8 @@
 	    android:layout_height="wrap_content"
 	    android:layout_toRightOf="@+id/id_product_image"
 	    android:layout_below="@+id/id_product_name"
+	    android:ellipsize="end"
+	    android:maxLines="5"
 	    android:textColor="#a222"
         android:textSize="12sp"
         android:textStyle="italic"
