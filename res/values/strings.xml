@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Firstmile Mobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_create">Create</string>
+    <string name="contacts_list_search_results_title">Contacts List Search for \"%s\"</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="search_match_other">Matches Other Field</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="search_hint">Type contact name</string>
+    <string name="attach_biz">Attach</string>
+	<string name="resturant_header_name">Restaurant Details</string>
+	<string name="info">info</string>
+	<string name="view_info">View Info</string>
+	<string name="add_participants">Add participants</string>
+	<string name="unit">sp</string>
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    
+    <!-- DUmmy Data TODO  -->
+    
+    <string-array name="publisher_name">
+    <item>Amith</item>
+    <item>Karthik</item>
+    <item>Raudra</item>
+    <item>Hisham</item>
+    <item>Pollo</item>
+    <item>Hemanth M</item>
+    <item>Hemanth GC</item>
+    <item>Attamma 2</item>
+</string-array>
+
+<string-array name="publisher_image">
+    <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWDg79mWJWAEiODAvu2Xx6xdSRpNymNlSJL71f58A_N2SZXytoQ</item>
+    <item>http://betweenthelines.in/wp-content/uploads/2012/01/meluha-book-02.gif</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
+    <item>http://www.nndb.com/people/584/000026506/feynman.jpg</item>
+    <item>http://ffaasstt.swide.com/wp-content/uploads/2014/06/Best-book-to-movie-adaptations-for-2014-and-2015-paper-town-1.jpg</item>
+    <item>https://s-media-cache-ak0.pinimg.com/originals/88/0d/5b/880d5b7328868a3419a7ff34676c39aa.jpg</item>
+    <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWDg79mWJWAEiODAvu2Xx6xdSRpNymNlSJL71f58A_N2SZXytoQ</item>
+</string-array>
+
+
+<string-array name="product_list_name">
+    <item>Chetan Bhagat Collection</item>
+    <item>Shiva Trilogy Specials</item>
+    <item>50 Shades of gray</item>
+    <item>Dan Brown collections</item>
+    <item>Richard Feynmann specials</item>
+    <item>2015 best sellers</item>
+    <item>My Buyer List</item>
+    <item>SB Collections</item>
+</string-array>
+
+<string-array name="product_list_type">
+    <item>Books I want to buy</item>
+    <item>Books I want to sell</item>
+    <item>Books I want to sell</item>
+    <item>Books I want to sell</item>
+    <item>Books I want to sell</item>
+    <item>Books I want to sell</item>
+    <item>Books I want to buy</item>
+    <item>Books I want to sell</item>
+</string-array>
+
+<string-array name="date">
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+    <item>09 Jan 15</item>
+</string-array>
+
+<string-array name="time">
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+    <item>11:25 pm</item>
+</string-array>
+
+<string-array name="description">
+    <item>Bhagat is the author of bestselling novels, and Five Point Someone (2004), One Night @ the Call Center (2005), The 3 Mistakes of My Life (2008), 2 States (2009), Revolution 2020 (2011), What Young India Wants (2012) and Half Girlfriend (2014). All the books have remained bestsellers since their release and four have inspired Bollywood films</item>
+    <item>The three books collectively comprise the Shiva Trilogy. Tripathis debut work The Immortals of Meluha was a surprise bestseller, breaking into the top seller charts within a week of its launch.The Shiva Trilogy has become the fastest selling book series in the history of Indian publishing, with 2 million copies in print and over Rs 50 crore in sales</item>
+    <item>The second and third volumes, Fifty Shades Darker and Fifty Shades Freed, were published in 2012. Fifty Shades of Grey has topped best-seller lists around the world, including those of the United Kingdom and the United States.[5][6] The series has sold over 100 million copies worldwide and been translated into 52 languages,[7] and set a record in the United Kingdom as the fastest-selling paperback of all time.[8] Critical reception of the book, however, has been mixed, with the quality of its </item>
+    <item>Browns novels that feature the lead character Robert Langdon also include historical themes and Christianity as motifs, and as a result, have generated controversy. Brown states on his website that his books are not antiChristian, though he is on a constant spiritual journey himself, and says that his book The Da</item>
+    <item>Richard Phillips Feynman was an American theoretical physicist known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the super fluidity of super cooled liquid helium, as well as in particle physics (he proposed the parton model). For his contributions to the development of quantum electrodynamics, Feynman, jointly with Julian Schwingerand Sin-Itiro Tomonaga, received the Nobel Prize in Physics in 1965</item>
+    <item>This page is a current list of the best-selling books in non-fiction for the United Kingdom.  It is based upon the most up to date book sales data we have.  No best-selling book list is ever going to be entirely accurate since not all sales are tracked and information is released from different sources at different times</item>
+    <item>Collection of best books that always wanted to read and now I am read to buy books, if somebody can provide it</item>
+    <item>The Summer I Turned Pretty Trilogy (sometimes known as The Belly Conklin Series or The Summer Series/Trilogy ), written by international best selling author Jenny Han and published by Simon and Schuster, includes The Summer I Turned Pretty, Its Not Summer Without You, and We will Always Have Summe</item>
+</string-array>
+
+<string-array name="cover_image">
+    <item>http://www.tiptoplifestyle.com/wp-content/uploads/2014/06/chetan-bhagat-2-states-story-marriage-book.jpg</item>
+    <item>http://betweenthelines.in/wp-content/uploads/2012/01/meluha-book-02.gif</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
+    <item>http://www.nndb.com/people/584/000026506/feynman.jpg</item>
+    <item>http://ffaasstt.swide.com/wp-content/uploads/2014/06/Best-book-to-movie-adaptations-for-2014-and-2015-paper-town-1.jpg</item>
+    <item>https://s-media-cache-ak0.pinimg.com/originals/88/0d/5b/880d5b7328868a3419a7ff34676c39aa.jpg</item>
+    <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWDg79mWJWAEiODAvu2Xx6xdSRpNymNlSJL71f58A_N2SZXytoQ</item>
+</string-array>
+
+<string-array name="product_name">
+    <item>2 States</item>
+    <item>Inferno</item>
+    <item>Fountain Head</item>
+    <item>50 Shades of Grey</item>
+    <item>Wings of Fire</item>
+    <item>3 Mistakes of my Life</item>
+</string-array>
+
+<string-array name="product_image">
+    <item>http://www.tiptoplifestyle.com/wp-content/uploads/2014/06/chetan-bhagat-2-states-story-marriage-book.jpg</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
+    <item>https://s-media-cache-ak0.pinimg.com/originals/88/0d/5b/880d5b7328868a3419a7ff34676c39aa.jpg</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
+    <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
+</string-array>
+
+<string-array name="product_desc">
+    <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
+    <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
+    <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
+    <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
+    <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
+    <item>jasdlfjkladf jkalsdfjlkadfsj;lkfasjlkafsd adfslasd;ljadfskj adfsj a;dfsj ;adfs adfsj;kdafs</item>
+</string-array>
+
+
+    
+       
+</resources>

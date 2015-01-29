@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+	
+    <item
+        android:id="@+id/action_attach"
+        android:title="@string/attach_biz"
+        android:showAsAction="ifRoom"/>
+         <item android:id="@+id/action_overflow"
+          android:textSize="12sp"
+          android:title="menu"
+          android:icon="@drawable/ic_action_overflow"
+          android:showAsAction="ifRoom" >
+		 <menu>
+		    <item android:id="@+id/action_info"
+		          android:textSize="12sp"
+		          android:title="Info"
+		          android:icon="@drawable/ic_address"
+		          android:showAsAction="ifRoom" />
+		    <item android:id="@+id/action_offer"
+		          android:textSize="12sp"
+		          android:title="Offers"
+		          android:icon="@drawable/ic_settings"
+		          android:showAsAction="ifRoom" />
+		  </menu>
+	 </item>
+</menu>

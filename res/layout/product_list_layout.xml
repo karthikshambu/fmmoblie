@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ListView 
+        android:id="@+id/product_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"/> 
+    
+	<ImageView 
+	    android:id="@+id/prod_image"
+	    android:layout_width="40dip"
+	    android:layout_height="60dip"
+	    android:background="@drawable/signin_back"/>
+	
+	<TextView
+        android:id="@+id/prod_name"
+        android:layout_toRightOf="@+id/prod_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 States"
+        android:textColor="#222"
+        android:textSize="16sp"/>
+	
+	<TextView
+        android:id="@+id/prod_desc"
+        android:layout_toRightOf="@+id/prod_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 States Beautiful Love Story between couple from 2 differend states"
+        android:textColor="#222"
+        android:textSize="16sp"/>
+	
+	
+         
+</LinearLayout>

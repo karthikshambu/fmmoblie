@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+	<!-- this method allow icon as well text to be visible in overflow -->
+	<!-- <item
+        android:id="@+id/action_explore"
+        android:title="@string/action_create"
+        android:showAsAction=""/> -->
+    <item android:id="@+id/action_overflow"
+          android:textSize="12sp"
+          android:title="menu"
+          android:icon="@drawable/ic_action_overflow"
+          android:showAsAction="ifRoom" >
+		 <menu>
+		    <item android:id="@+id/action_profile"
+		          android:textSize="12sp"
+		          android:title="Profile"
+		          android:icon="@drawable/ic_address"
+		          android:showAsAction="ifRoom" />
+		    <item android:id="@+id/action_products"
+		          android:textSize="12sp"
+		          android:title="Products"
+		          android:showAsAction="ifRoom" />
+		    <item android:id="@+id/action_lists"
+		          android:textSize="12sp"
+		          android:title="Lists"
+		          android:showAsAction="ifRoom" />
+		    <item android:id="@+id/sign_out"
+		          android:textSize="12sp"
+		          android:title="Sign out"
+		          android:icon="@drawable/ic_settings"
+		          android:showAsAction="ifRoom" />
+		    
+		  </menu>
+	 </item>
+</menu>

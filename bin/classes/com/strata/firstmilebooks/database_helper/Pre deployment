@@ -1,0 +1,37 @@
+Pre deployment
+1. Old plans renewal and change plan for yearly no monthly
+2. sign up screen chnage 
+3. change plan screen change 
+
+Staging Deployment
+After deployment
+1) Create all new plans in staging
+
+To Test
+1) Gl transaction testing for 
+2) eod jobs for all transactions
+3) Signup for old plan
+	a) renwal for new plan (check the payable amount/ gl transcation)
+	b) change plan to new plan (check the payable amount/gl transaction)
+	c) old to old renewal (should be yearly)
+	d old to old change plan (should be yearly)
+4) New to new all transactions
+
+
+Deployment
+ as usual
+
+Post deployment
+1) create new plans  from screen??
+
+One time Jobs after deployment
+2) How to popluate promo code for old plans?
+3) Populate plan type id for old plans
+4) create maganize prices
+
+
+Communication
+Kavaya will give content - for mumbai and non mumbai
+extract eamil ids for members and upload to mailchimp
+
+

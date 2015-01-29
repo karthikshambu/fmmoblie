@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    
+<RelativeLayout
+    android:id="@+id/id_feed_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dip"
+    android:background="#eee"
+    android:layout_marginLeft="5dip"
+    android:layout_marginTop="5dip"
+    android:layout_marginRight="5dip">
+	<ImageView 
+	    android:id="@+id/id_user_image"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:layout_marginRight="10dip"
+	    android:background="@drawable/temp_user"/>
+	<TextView
+        android:id="@+id/id_publisher_name"
+        android:layout_toRightOf="@+id/id_user_image"
+        android:layout_toLeftOf="@+id/id_dining_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Pollo"
+        android:textColor="#222"
+        android:textSize="16sp"/>
+	<TextView
+        android:id="@+id/id_dining_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="09 Dec 14"
+        android:textColor="#a222"
+        android:textSize="12sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+    <TextView
+        android:id="@+id/feed_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_publisher_name"
+        android:layout_toRightOf="@+id/id_user_image"
+        android:layout_toLeftOf="@+id/id_dining_date"
+        android:textColor="#222"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:text="Shared 'Best Sellers' to his buying list"/>
+    
+    <View
+        android:id="@+id/line_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/feed_header"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="4dip"
+        android:layout_marginBottom="4dip"
+        android:background="#ccc"/>
+    
+	<TextView
+	    android:id="@+id/time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignRight="@+id/id_dining_date"
+	    android:layout_below="@+id/id_dining_date"
+	    android:textColor="#a222"
+        android:textSize="10dip"
+	    android:text="11:30 PM" />
+	
+	<ImageView 
+	    android:id="@+id/id_feed_cover"
+	    android:layout_below="@+id/line_separator"
+	    android:layout_width="80dip"
+	    android:layout_height="80dip"
+	    android:layout_marginRight="10dip"
+	    android:background="@drawable/profile_test"/>
+	
+	<TextView
+	    android:id="@+id/feed_desc"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/id_feed_cover"
+	    android:layout_below="@+id/line_separator"
+	    android:textColor="#a222"
+        android:textSize="12dip"
+	    android:text="Shared adsflkjladfs asdlkadfsjkladf adslkjadfs fadadfslkjladfs ladsjkladfsj fadsfdasklfadjskldf ladfsl fdjadfsldfj ;ladf ;ladf ldfas dfsjkldafjk;dfj;ladf " />
+	
+<!-- 	<TextView
+	    android:id="@+id/feed_action"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/feed_desc"
+	    android:textColor="#a222"
+        android:textSize="10dip"
+        android:layout_marginTop="20dip"
+	    android:text="Share" />
+ -->
+
+</RelativeLayout>
+
+</RelativeLayout>
