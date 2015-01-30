@@ -5,8 +5,10 @@ import java.util.ArrayList;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -14,6 +16,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 import com.strata.firstmilebooks.R;
+import com.strata.firstmilebooks.activity.ConverseActivity;
 import com.strata.firstmilebooks.model.DemoFeed;
 
 public class FeedAdapter extends BaseAdapter {
@@ -47,6 +50,8 @@ public class FeedAdapter extends BaseAdapter {
 		TextView created_at = (TextView) rowView.findViewById(R.id.id_dining_date);
 		TextView time = (TextView) rowView.findViewById(R.id.time);
 		TextView publisher_name = (TextView) rowView.findViewById(R.id.id_publisher_name);
+		TextView btn_feed_converse = (TextView) rowView.findViewById(R.id.btn_feed_converse);
+		TextView btn_feed_share = (TextView) rowView.findViewById(R.id.btn_feed_share);
 		ImageView pub_image = (ImageView) rowView.findViewById(R.id.id_user_image);
 		ImageView pl_cover_image = (ImageView) rowView.findViewById(R.id.id_feed_cover);
 		
@@ -55,8 +60,27 @@ public class FeedAdapter extends BaseAdapter {
 		created_at.setText(feed.getDate());
 		time.setText(feed.getTime());
 		publisher_name.setText(feed.getPublisher_name());
+		btn_feed_converse.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(context, ConverseActivity.class);
+				context.startActivity(intent);
+				
+			}
+		});
 		
+		btn_feed_share.setOnClickListener(new OnClickListener(){
+	        public void onClick(View v){
+	        Intent i=new Intent(android.content.Intent.ACTION_SEND);
+	        i.setType("text/plain");
+	        i.putExtra(android.content.Intent.EXTRA_SUBJECT,"I am sharing a list with you. ");
+	        i.putExtra(android.content.Intent.EXTRA_TEXT, "please have a look  http://www.bookbundles.in/bundles/10000");
+	        context.startActivity(Intent.createChooser(i,"Share via"));
+	        }
+	    });
 
+		
 		Picasso.with(context)
 		.load(feed.getPublisher_image())
 		.noFade()

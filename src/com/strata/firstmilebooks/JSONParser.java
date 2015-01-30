@@ -95,22 +95,22 @@ public class JSONParser {
 
 	}
 
-	public JSONObject getJSONFromUrl(String url, Context mContext) {
+	public JSONObject getJSONFromUrl(String url) {
 
 		// Making HTTP request
 		try {
 			jObj = null;
 			is = null;
 			json = "";
-			SharedPreferences value = mContext.getSharedPreferences("PREF",
-					Context.MODE_PRIVATE);
-			String auth_token = value.getString("AUTH_TOKEN", "");
-			String numb = value.getString("NUMBER", "");
+//			SharedPreferences value = mContext.getSharedPreferences("PREF",
+//					Context.MODE_PRIVATE);
+//			String auth_token = value.getString("AUTH_TOKEN", "");
+//			String numb = value.getString("NUMBER", "");
 			// defaultHttpClient
 			DefaultHttpClient httpClient = new DefaultHttpClient();
 			HttpGet httpPost = new HttpGet(url);
-			httpPost.setHeader("auth-token",auth_token);
-            httpPost.setHeader("numb",numb);
+//			httpPost.setHeader("auth-token",auth_token);
+//            httpPost.setHeader("numb",numb);
 			HttpResponse httpResponse = httpClient.execute(httpPost);
 			HttpEntity httpEntity = httpResponse.getEntity();
 			is = httpEntity.getContent();

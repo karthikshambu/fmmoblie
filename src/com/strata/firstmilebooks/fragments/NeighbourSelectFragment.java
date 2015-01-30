@@ -113,7 +113,7 @@ public class NeighbourSelectFragment extends Fragment {
 
 		protected JSONObject doInBackground(String... args) {
 			JSONParser jp = new JSONParser();
-			JSONObject json = jp.getJSONFromUrl(args[0],context);
+			JSONObject json = jp.getJSONFromUrl(args[0]);
 			return json;
 		}
 

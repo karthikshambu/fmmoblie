@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    
+<RelativeLayout
+    android:id="@+id/id_feed_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dip"
+    android:background="#eee"
+    android:layout_marginLeft="5dip"
+    android:layout_marginTop="5dip"
+    android:layout_marginRight="5dip">
+
+	<ImageView 
+	    android:id="@+id/id_product_image"
+	    android:layout_width="80dip"
+	    android:layout_height="80dip"
+	    android:layout_marginRight="10dip"
+	    android:background="@drawable/profile_test"/>
+	
+	<TextView
+	    android:id="@+id/id_product_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/id_product_image"
+	    android:textColor="#222"
+        android:textSize="16sp"
+	    android:text="amit and lah" />
+	
+	<TextView
+	    android:id="@+id/id_product_desc"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/id_product_image"
+	    android:layout_below="@+id/id_product_name"
+	    android:ellipsize="end"
+	    android:maxLines="5"
+	    android:textColor="#a222"
+        android:textSize="12sp"
+        android:textStyle="italic"
+	    android:text="Shared"/>
+
+	<CheckBox
+	    android:id="@+id/checkBox1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/id_product_desc"
+	    android:layout_alignParentRight="true"
+	    android:text="Add to list" />
+
+</RelativeLayout>
+
+</RelativeLayout>

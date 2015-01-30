@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="10dip">
+    
+    <ImageView 
+	    android:id="@+id/prod_image"
+	    android:layout_width="60dip"
+	    android:layout_height="80dip"
+	    android:layout_alignParentRight="true"
+	    android:scaleType="centerCrop"
+	    android:background="@drawable/signin_back"/>
+
+    <TextView
+        android:id="@+id/prod_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/prod_image"
+        android:padding="2dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/prod_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prod_name"
+        android:layout_alignRight="@+id/prod_name"
+        android:layout_below="@+id/prod_name"
+        android:padding="2dp"
+        android:text="Description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/prod_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prod_desc"
+        android:layout_alignRight="@+id/prod_desc"
+        android:layout_below="@+id/prod_desc"
+        android:padding="2dp"
+        android:text="Author"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/prod_manufacturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/prod_creator"
+        android:padding="2dp"
+        android:text="Publisher"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/prod_created_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prod_manufacturer"
+        android:layout_below="@+id/prod_manufacturer"
+        android:padding="2dp"
+        android:text="Created Date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+</RelativeLayout>

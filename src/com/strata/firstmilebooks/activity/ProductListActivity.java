@@ -9,20 +9,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.AdapterView.OnItemClickListener;
 
 import com.strata.firstmilebooks.R;
-import com.strata.firstmilebooks.adapters.ProductListAdapter;
+import com.strata.firstmilebooks.adapters.ProductCatalogAdapter;
 import com.strata.firstmilebooks.model.ProductList;
 
 public class ProductListActivity extends Activity {
 	ListView pl_listview;
-	ProductListAdapter adapter;
+	ProductCatalogAdapter adapter;
 	ArrayList<ProductList> product_list = new ArrayList<ProductList>();
 	Context context;
 	
@@ -43,22 +41,16 @@ public class ProductListActivity extends Activity {
 	    lbl_name.setText(getIntent().getStringExtra("name"));
 	    lbl_desc.setText(getIntent().getStringExtra("desc"));
 	    
+	    getActionBar().setTitle(getIntent().getStringExtra("name"));
+	    getActionBar().setSubtitle(getIntent().getStringExtra("publisher"));
 	    
-//	    db = new FeedDBAdapter(getApplicationContext());
-//	    feed_list = db.getAllFeeds();
-	    
-//	    int setPl_id = getResources().getStringArray(R.array.publisher_name);
-//	    String[] pub_image = getResources().getStringArray(R.array.publisher_image);
-//	    String[] pl_name = getResources().getStringArray(R.array.product_list_name);
-//	    String[] pl_type = getResources().getStringArray(R.array.product_list_type);
-//	    String[] feed_date = getResources().getStringArray(R.array.date);
-//	    String[] feed_time = getResources().getStringArray(R.array.time);
-//	    String[] pl_desc = getResources().getStringArray(R.array.description);
-//	    String[] pl_cover = getResources().getStringArray(R.array.cover_image);
 	    
 	    String[] product_name = getResources().getStringArray(R.array.product_name);
 	    String[] product_image = getResources().getStringArray(R.array.product_image);
 	    String[] product_desc = getResources().getStringArray(R.array.product_desc);
+	    final String[] product_creator = getResources().getStringArray(R.array.product_creator);
+	    final String[] product_manufacturer = getResources().getStringArray(R.array.product_manufacturer);
+	    final String[] product_created_date = getResources().getStringArray(R.array.product_created_date);
 	    
 	    
 	    for(int i=0; i < product_name.length; i++){
@@ -69,50 +61,29 @@ public class ProductListActivity extends Activity {
 	    	product_list.add(single_prod);
 	    }
 	    
-	    adapter = new ProductListAdapter(this, product_list);
+	    
+	    adapter = new ProductCatalogAdapter(this, product_list);
 	    // selecting single ListView item
 	    pl_listview.setAdapter(adapter);
-	    //adapter.notifyDataSetChanged();
-//	    pl_listview.setOnItemClickListener(new OnItemClickListener(){
-
-//	      @Override
-//	      public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
-//	        position = position - 1; 
-//	        Bundle b=new Bundle();
-//	        Intent in;
-//	        if(product_list.get(position).getType().equals("TeamLunch")){
-//	          b.putString("feed_id", String.valueOf(feed_list.get(position).getFeed_id()));
-//	          b.putString("publisher_id", String.valueOf(feed_list.get(position).getPublisher_id()));
-//	          b.putInt("visited_res_id", feed_list.get(position).getVisited_res_id());
-//	          in = new Intent(getApplicationContext(), ChatMainTabActivity.class);
-//	          in.putExtras(b);
-//	          startActivity(in);
-//	        }else if(feed_list.get(position).getType().equals("BusinessScribble") || feed_list.get(position).getType().equals("BloggerScribble")){
-//	          int content_id= feed_list.get(position).getFeed_id();
-//	          b.putString("content_id", String.valueOf(content_id));
-//	          in = new Intent(getApplicationContext(), SingleContentActivity.class);
-//	          in.putExtras(b);
-//	          startActivity(in);
-//	        }
-//	      }
-//	    });
 	    
-//	    LinearLayout new_run = (LinearLayout) headerView.findViewById(R.id.new_run);
-//	    new_run.setOnClickListener(new OnClickListener() {
-//
-//	      @Override
-//	      public void onClick(View arg0) {
-//	        Intent in = new Intent(getApplicationContext(), CreateGroup.class);
-//	        Bundle bund = new Bundle();
-//	        bund.putBoolean("isEdit", false);
-//	        in.putExtras(bund);
-//	        startActivity(in);
-//	      }
-//
-//	    });
-//
-//	    json_parse = new JSONParse();
-//	    json_parse.execute();
+	    pl_listview.setOnItemClickListener(new OnItemClickListener(){
+
+			@Override
+				public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
+					//Bundle b=new Bundle();
+					position -= 1;
+					Intent in = new Intent(context,ProductDetailActivity.class);
+					in.putExtra("prod_name", product_list.get(position).getPl_name());
+					in.putExtra("prod_desc", product_list.get(position).getPl_desc());
+					in.putExtra("prod_image", product_list.get(position).getPl_image());
+					in.putExtra("product_creator", product_creator[position]);
+					in.putExtra("product_manufacturer", product_manufacturer[position]);
+					in.putExtra("product_created_date", product_created_date[position]);
+					startActivity(in);
+				}
+			});
+	    
+
 	  }
 
 

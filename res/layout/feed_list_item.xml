@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff">
+    android:background="#ddd">
     
 <RelativeLayout
     android:id="@+id/id_feed_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dip"
-    android:background="#eee"
+    android:background="@drawable/edit_border"
     android:layout_marginLeft="5dip"
     android:layout_marginTop="5dip"
     android:layout_marginRight="5dip">
@@ -88,18 +88,38 @@
 	    android:textColor="#a222"
         android:textSize="12dip"
         android:ellipsize="end"
-        android:maxLines="5" />
+        android:layout_marginBottom="5dip"
+        android:maxLines="3" />
 	
-<!-- 	<TextView
-	    android:id="@+id/feed_action"
-	    android:layout_width="wrap_content"
+	<LinearLayout 
+	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:padding="5dip"
 	    android:layout_below="@+id/feed_desc"
-	    android:textColor="#a222"
-        android:textSize="10dip"
-        android:layout_marginTop="20dip"
-	    android:text="Share" />
- -->
+	    android:layout_toRightOf="@+id/id_feed_cover"
+	    android:orientation="horizontal">
+
+		<TextView
+		    android:id="@+id/btn_feed_share"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/button_white"
+		    android:gravity="center"
+		    android:text="Share"
+		    android:layout_marginRight="20dip"
+		    android:textColor="#41A317" />   
+		    
+		<TextView
+		    android:id="@+id/btn_feed_converse"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/button_white"
+		    android:gravity="center"
+		    android:text="Converse"
+		    android:textColor="#41A317" />
+	</LinearLayout>
+	
 
 </RelativeLayout>
 

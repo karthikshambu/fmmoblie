@@ -35,7 +35,7 @@ public class CreateListActivity extends Activity {
 
 		int id = item.getItemId();
 		if (id == R.id.action_next) {
-			Intent in = new Intent(getApplicationContext(), ProductCatalogActivity.class);
+			Intent in = new Intent(getApplicationContext(), AddToListActivity.class);
 			startActivity(in);
 			return true;
 		}

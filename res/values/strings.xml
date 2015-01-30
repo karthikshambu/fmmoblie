@@ -23,93 +23,86 @@
     <!-- DUmmy Data TODO  -->
     
 <string-array name="publisher_name">
-    <item>Amith</item>
-    <item>Karthik</item>
-    <item>Raudra</item>
-    <item>Hisham</item>
-    <item>Pollo</item>
-    <item>Hemanth M</item>
-    <item>Hemanth GC</item>
-    <item>Attamma 2</item>
+  <item>Flipkart</item>
+  <item>Ebay</item>
+  <item>Landmark</item>
+  <item>Justbooks</item>
+  <item>CrossWord</item>
+  <item>Amazon</item>
+  <item>Sapana Book House</item>
 </string-array>
 
 <string-array name="publisher_image">
-    <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWDg79mWJWAEiODAvu2Xx6xdSRpNymNlSJL71f58A_N2SZXytoQ</item>
-    <item>http://betweenthelines.in/wp-content/uploads/2012/01/meluha-book-02.gif</item>
-    <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
-    <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
-    <item>http://www.nndb.com/people/584/000026506/feynman.jpg</item>
-    <item>http://ffaasstt.swide.com/wp-content/uploads/2014/06/Best-book-to-movie-adaptations-for-2014-and-2015-paper-town-1.jpg</item>
-    <item>https://s-media-cache-ak0.pinimg.com/originals/88/0d/5b/880d5b7328868a3419a7ff34676c39aa.jpg</item>
-    <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWDg79mWJWAEiODAvu2Xx6xdSRpNymNlSJL71f58A_N2SZXytoQ</item>
+  <item>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTDQoz3BsaoGLcmUDI2JINppFeITFyc3PuENqpNzM14zIX8ddpnQw</item>
+  <item>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_YdTG6H5aYEji_thLMwkZZBE7D3QhOvZqRrzORDJ0CIf_WR-0</item>
+  <item>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS7xmBihjWqErlaO_qKi-dVz-jcIiYNv6ELq9vsyDeST13AjxtPwQ</item>
+  <item>http://retailspaces.in/images/Leisure/JustBooks_logo.jpg</item>
+  <item>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbtimzjAuYq9eqelgWcw_A2quDiu9-BxI4DQ8WaEUXqabEGzMF</item>
+  <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR55FIAuYMQtxSE_CUZus2MdZKx-0pQfqh4UJja7xdyqSpHKe5cvEfMllg</item>
+  <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWyrA3g1nFbU4B4WueNtWuisfRbbAYrywRZgCH9Ii-qISYEcV5QWcnteM</item>
 </string-array>
 
 
 <string-array name="product_list_name">
-    <item>Chetan Bhagat Collection</item>
-    <item>Shiva Trilogy Specials</item>
-    <item>50 Shades of gray</item>
+    <item>Fictional List</item>
+    <item>List of Classical Books</item>
+    <item>Shiva trilogy</item>
     <item>Dan Brown collections</item>
     <item>Richard Feynmann specials</item>
-    <item>2015 best sellers</item>
-    <item>My Buyer List</item>
-    <item>SB Collections</item>
+    <item>Chetan Bhagath collection</item>
+    <item>Books I want to refer</item>
 </string-array>
 
 <string-array name="product_list_type">
     <item>Books I want to buy</item>
     <item>Books I want to sell</item>
     <item>Books I want to sell</item>
-    <item>Books I want to sell</item>
-    <item>Books I want to sell</item>
-    <item>Books I want to sell</item>
+    <item>Books I want to buy</item>
     <item>Books I want to buy</item>
     <item>Books I want to sell</item>
+    <item>Books I want to buy</item>
 </string-array>
 
 <string-array name="date">
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
-    <item>09 Jan 15</item>
+    <item>31 Jan 15</item>
+    <item>31 Jan 15</item>
+    <item>31 Jan 15</item>
+    <item>31 Jan 15</item>
+    <item>31 Jan 15</item>
+    <item>31 Jan 15</item>
+    <item>31 Jan 15</item>
 </string-array>
 
 <string-array name="time">
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
-    <item>11:25 pm</item>
+    <item>02:25 pm</item>
+    <item>01:25 pm</item>
+    <item>12:25 pm</item>
+    <item>11:25 am</item>
+    <item>10:25 am</item>
+    <item>09:25 am</item>
+    <item>08:25 am</item>
 </string-array>
 
 <string-array name="description">
-    <item>Bhagat is the author of bestselling novels, and Five Point Someone (2004), One Night @ the Call Center (2005), The 3 Mistakes of My Life (2008), 2 States (2009), Revolution 2020 (2011), What Young India Wants (2012) and Half Girlfriend (2014). All the books have remained bestsellers since their release and four have inspired Bollywood films</item>
-    <item>The three books collectively comprise the Shiva Trilogy. Tripathis debut work The Immortals of Meluha was a surprise bestseller, breaking into the top seller charts within a week of its launch.The Shiva Trilogy has become the fastest selling book series in the history of Indian publishing, with 2 million copies in print and over Rs 50 crore in sales</item>
-    <item>The second and third volumes, Fifty Shades Darker and Fifty Shades Freed, were published in 2012. Fifty Shades of Grey has topped best-seller lists around the world, including those of the United Kingdom and the United States.[5][6] The series has sold over 100 million copies worldwide and been translated into 52 languages,[7] and set a record in the United Kingdom as the fastest-selling paperback of all time.[8] Critical reception of the book, however, has been mixed, with the quality of its </item>
-    <item>Browns novels that feature the lead character Robert Langdon also include historical themes and Christianity as motifs, and as a result, have generated controversy. Brown states on his website that his books are not antiChristian, though he is on a constant spiritual journey himself, and says that his book The Da</item>
-    <item>Richard Phillips Feynman was an American theoretical physicist known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the super fluidity of super cooled liquid helium, as well as in particle physics (he proposed the parton model). For his contributions to the development of quantum electrodynamics, Feynman, jointly with Julian Schwingerand Sin-Itiro Tomonaga, received the Nobel Prize in Physics in 1965</item>
-    <item>This page is a current list of the best-selling books in non-fiction for the United Kingdom.  It is based upon the most up to date book sales data we have.  No best-selling book list is ever going to be entirely accurate since not all sales are tracked and information is released from different sources at different times</item>
-    <item>Collection of best books that always wanted to read and now I am read to buy books, if somebody can provide it</item>
-    <item>The Summer I Turned Pretty Trilogy (sometimes known as The Belly Conklin Series or The Summer Series/Trilogy ), written by international best selling author Jenny Han and published by Simon and Schuster, includes The Summer I Turned Pretty, Its Not Summer Without You, and We will Always Have Summe</item>
+  <item>Some extra-ordinary books you can find in this list.Books which would smoothen your mood on course of reading,with some imagainary effects passing by in your thoughts in an archaic style.</item>
+  <item>These Classical Book Collection features books which are stored into the DS cartridge. Several of the works included are Othello by William Shakespeare, Oliver Twist by Charles Dickens, and The Phantom of the Opera by Gaston Leroux. Additional free books were available to download via Nintendo Wi-Fi Connection until the discontinuation of the service on May 20, 2014.</item>
+  <item>The three books collectively comprise the Shiva Trilogy. Tripathis debut work The Immortals of Meluha was a surprise bestseller, breaking into the top seller charts within a week of its launch.The Shiva Trilogy has become the fastest selling book series in the history of Indian publishing, with 2 million copies in print and over Rs 50 crore in sales</item>
+  <item>Browns novels that feature the lead character Robert Langdon also include historical themes and Christianity as motifs, and as a result, have generated controversy. Brown states on his website that his books are not antiChristian, though he is on a constant spiritual journey himself, and says that his book The Da</item>
+  <item>Richard Phillips Feynman was an American theoretical physicist known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, and the physics of the super fluidity of super cooled liquid helium, as well as in particle physics (he proposed the parton model). For his contributions to the development of quantum electrodynamics, Feynman, jointly with Julian Schwingerand Sin-Itiro Tomonaga, received the Nobel Prize in Physics in 1965</item>
+   <item>Bhagat is the author of bestselling novels, and Five Point Someone (2004), One Night @ the Call Center (2005), The 3 Mistakes of My Life (2008), 2 States (2009), Revolution 2020 (2011), What Young India Wants (2012) and Half Girlfriend (2014). All the books have remained bestsellers since their release and four have inspired Bollywood films</item>
+   <item>Collection of best books that always wanted to read and now I am read to buy books, if somebody can provide it</item>
 </string-array>
 
 <string-array name="cover_image">
-    <item>http://www.tiptoplifestyle.com/wp-content/uploads/2014/06/chetan-bhagat-2-states-story-marriage-book.jpg</item>
-    <item>http://betweenthelines.in/wp-content/uploads/2012/01/meluha-book-02.gif</item>
-    <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
-    <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
-    <item>http://www.nndb.com/people/584/000026506/feynman.jpg</item>
-    <item>http://ffaasstt.swide.com/wp-content/uploads/2014/06/Best-book-to-movie-adaptations-for-2014-and-2015-paper-town-1.jpg</item>
-    <item>https://s-media-cache-ak0.pinimg.com/originals/88/0d/5b/880d5b7328868a3419a7ff34676c39aa.jpg</item>
-    <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWDg79mWJWAEiODAvu2Xx6xdSRpNymNlSJL71f58A_N2SZXytoQ</item>
+  <item>http://www.tckpublishing.com/wp-content/uploads/2013/06/Fiction.jpg</item>
+  <item>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-1qgLlHovS3mw-4JwI9lbPzHDHNxsNxdoPXWOfqPgIdxYf-nKZg</item>
+  <item>http://betweenthelines.in/wp-content/uploads/2012/01/meluha-book-02.gif</item>
+  <item>http://upload.wikimedia.org/wikipedia/en/b/bb/Inferno-cover.jpg</item>
+  <item>http://www.nndb.com/people/584/000026506/feynman.jpg</item>
+  <item>http://www.tiptoplifestyle.com/wp-content/uploads/2014/06/chetan-bhagat-2-states-story-marriage-book.jpg</item>
+  <item>http://upload.wikimedia.org/wikipedia/en/5/5e/50ShadesofGreyCoverArt.jpg</item>
 </string-array>
+
 
 <string-array name="product_name">
     <item>2 States</item>
@@ -118,6 +111,33 @@
     <item>50 Shades of Grey</item>
     <item>Wings of Fire</item>
     <item>3 Mistakes of my Life</item>
+</string-array>
+
+<string-array name="product_creator">
+    <item>Chetan Bhagat</item>
+    <item>Dan Brown</item>
+    <item>Ayn Rand</item>
+    <item>Raudra Pratap Hisham John Ji</item>
+    <item>APJ Abdul Kalam</item>
+    <item>Chetan Bhagat</item>
+</string-array>
+
+<string-array name="product_manufacturer">
+    <item>WestSide Publications</item>
+    <item>RaiseHigh Publications</item>
+    <item>Rand Publications</item>
+    <item>Pollo Publications</item>
+    <item>Kalam Publications</item>
+    <item>WestSide Publications</item>
+</string-array>
+
+<string-array name="product_created_date">
+    <item>09 Jan 12</item>
+    <item>11 Jan 12</item>
+    <item>12 Jan 12</item>
+    <item>10 Jan 12</item>
+    <item>13 Jan 12</item>
+    <item>15 Jan 15</item>
 </string-array>
 
 <string-array name="product_image">

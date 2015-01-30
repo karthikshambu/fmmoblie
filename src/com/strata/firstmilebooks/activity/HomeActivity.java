@@ -131,6 +131,7 @@ public class HomeActivity extends Activity {
 				Intent in = new Intent(context,ProductListActivity.class);
 				in.putExtra("name", feed_list.get(position).getProduct_list_name());
 				in.putExtra("desc", feed_list.get(position).getDescription());
+				in.putExtra("publisher", feed_list.get(position).getPublisher_name());
 				startActivity(in);
 			}
 		});

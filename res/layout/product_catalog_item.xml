@@ -43,13 +43,16 @@
         android:textStyle="italic"
 	    android:text="Shared"/>
 
-	<CheckBox
-	    android:id="@+id/checkBox1"
+	<TextView
+	    android:id="@+id/btn_add"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
-	    android:layout_below="@+id/id_product_desc"
 	    android:layout_alignParentRight="true"
-	    android:text="Add to list" />
+	    android:layout_below="@+id/id_product_desc"
+	    android:background="@drawable/button_white"
+	    android:gravity="center"
+	    android:text="Add to List"
+	    android:textColor="#41A317" />
 
 </RelativeLayout>
 

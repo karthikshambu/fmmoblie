@@ -69,7 +69,25 @@
         </activity>
         
         <activity
+            android:name="com.strata.firstmilebooks.activity.AddToListActivity"
+            android:label="Add Products to Product List" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
             android:name="com.strata.firstmilebooks.activity.ProductCatalogActivity"
+            android:label="Add Products to Product List" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name="com.strata.firstmilebooks.activity.ConverseActivity"
+            android:label="Add Products to Product List" 
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name="com.strata.firstmilebooks.activity.ProductDetailActivity"
             android:label="Add Products to Product List" 
             android:screenOrientation="portrait">
         </activity>

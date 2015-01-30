@@ -312,7 +312,7 @@ public class ProfileEntryPage extends FragmentActivity implements NeighbourSelec
 
 		protected JSONObject doInBackground(String... args) {
 			JSONParser jp = new JSONParser();
-			JSONObject json = jp.getJSONFromUrl(args[0],getBaseContext());
+			JSONObject json = jp.getJSONFromUrl(args[0]);
 			return json;
 		}
 
